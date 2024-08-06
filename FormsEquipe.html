@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Imagens TCC/EsferaLogo.png" type="image/x-icon">
+    <title>Formulário de inscrição</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <section class="container">
+        <div class="row">
+
+            <!-- first-column: "texto e imagem" -->
+            <aside class="side">
+
+                <nav class="seta-voltar">
+                    <a href="PaginaInicial.html" id=""><img src="./Imagens TCC/seta-esquerda-branca.png" alt=""></a>
+                </nav>
+
+                <img src="./Imagens TCC/formsEquipe-img.png" alt="img-equipe" width="70%">
+                <p class="description-primary">
+                    Junte-se à nossa equipe e faça parte da nossa jornada.</p>
+            </aside> <!-- first-column -->
+
+            <!-- second-column: formulário juntar-se a equipe -->
+            <main class="main">
+
+                <img src="./Imagens TCC/IconeLogo.png" class="Logo360" alt="LogoPortal360" width="10%">
+
+                <h2 class="title-1">Formulário de inscrição</h2> <br>
+                <form action="#" class="form-equipe">
+
+                    <label for="equipe-nome">Nome:*</label>
+                    <input type="text" name="equipe-nome" class="input" required maxlength="50" id="equipe-nome"
+                        placeholder="Insira seu Nome Completo"> <br>
+
+                    <label for="equipe-email">Email:*</label>
+                    <input type="email" name="equipe-email" class="input" required maxlength="50" id="equipe-email"
+                        placeholder="Insira seu Email"> <br>
+
+                    <label for="equipe-tel">Telefone:*</label>
+                    <input type="tel" name="equipe-tel" class="input" id="equipe-tel" maxlength="11"
+                        placeholder="(99) 99999-9999" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" required>
+                    <br>
+
+                    <label for="curriculo" class="envia-curriculo">Envie seu currículo*</label>
+                    <input type="file" name="curriculo" class="input" required id="equipe-curriculo"
+                        placeholder="Importar currículo">
+                    <p style="text-align: right;">(*)Obrigatório</p> <br> <br>
+
+                    <button class="btn-enviar-mensagem">Enviar</button>
+                </form>
+            </main><!-- second-column -->
+        </div><!-- first-content -->
+
+    </section><!-- container -->
+
+</body>
+
+</html>

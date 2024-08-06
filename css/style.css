@@ -1,0 +1,322 @@
+/*Formatações globais*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: #CAE9FF;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    background-color: #0069C0;
+    padding: 20px;
+}
+
+.header div{
+    display: flex;
+}
+
+.header a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.header a:hover{
+    padding: 15px;
+    background-color: #5FA8D3;
+    border-radius: 10px;
+}
+
+.row-home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    color: #0069C0;
+    font-size: 45px;
+}
+
+.main-home {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding: 20px;
+    flex: 50%;
+}
+.container {
+    overflow: hidden;
+}
+
+.noticia-container{
+    align-items: center;
+    background-color: #E9F5FE;
+    display: flex;
+    margin: auto 20vh;
+    border-radius: 10px;
+    padding: 25px;
+    gap: 20px;
+    text-align: start;
+}
+
+.txt-noticia{
+font-size: 20px;
+}
+
+.img-noticia{
+    width: 70%;
+}
+
+.side-home {
+    padding: 20px;
+    flex: 50%
+}
+
+.popular-news{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.popular-news a{
+    color: #000;
+    font-size: 20px;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #0069C0;
+}
+
+.sobre-nos-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.img-sobreNos{
+    padding-right: 70px;
+    width: 100%;
+}
+
+
+.footer{
+    position: relative;
+    font-size: 20px;
+    background-color: #0069C0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.intranet{
+    display: flex;
+    align-items: end;
+}
+
+.footer div{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a{
+    color: #fff;
+}
+
+.fale-conosco-footer{
+    display: flex;
+    font-size: 20px;
+}
+
+.fale-conosco-footer a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.fale-conosco-footer a:hover{
+    padding: 7px;
+    background-color: #5FA8D3;
+    border-radius: 10px;
+}
+
+.footer-direitos{
+    flex-direction: column;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Página de login*/
+
+a {
+    color: #0062B2;
+    font-weight: bold;
+}
+
+.title-1 {
+    font-size: 45px;
+    color: #0062B2;
+}
+
+.title-2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.btn {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0062B2;
+    padding: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    cursor: pointer;
+}
+
+.description-primary {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.seta-voltar {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    cursor: pointer;
+}
+.seta-voltar img{
+    width: 10%;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 60%;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.legenda{
+    position: absolute;
+    bottom: 50px;
+}
+
+.side {
+    height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 40%;
+    background-color: #0062B2;
+}
+
+/*Fale conosco*/
+
+.form-fale-conosco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-fale-conosco label{
+    text-align: left;
+}
+
+.description-contact{
+    color: #000;
+
+    font-size: 25px;
+    text-align: center;
+}
+
+.Logo360{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.btn-enviar-mensagem{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0062B2;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    cursor: pointer;
+}
+
+/*Formulário de inscrição*/
+
+.form-equipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input [type="file"] {
+    display: none;
+}
+
+.envia-curriculo label{
+    padding: 20px 10px;
+    width: 200px;
+    background-color: #333;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}

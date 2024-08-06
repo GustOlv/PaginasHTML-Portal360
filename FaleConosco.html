@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Imagens TCC/EsferaLogo.png" type="image/x-icon">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <section class="container">
+
+        <div class="row">
+            <!-- first-column: "texto e imagem" -->
+            <aside class="side">
+
+                <nav class="seta-voltar">
+                    <a onclick="javascript:window.open('', '_self', '').close()" id="seta-voltar"><img
+                            src="./Imagens TCC/seta-esquerda-branca.png" alt="Home"></a>
+                </nav>
+
+                <img src="./Imagens TCC/faleConoscoIMG.png" alt="img-contact-us" width="70%">
+                <p class="description-primary">Envie para nós o seu problema e <br>
+                    entraremos em contato com você. </p>
+            </aside> <!-- first-column -->
+
+            <!-- second-column: formulário mensagem -->
+            <main class="main">
+
+
+                <img src="./Imagens TCC/IconeLogo.png" class="Logo360" alt="LogoPortal360" width="10%">
+
+
+
+                <h2 class="title-1">Fale Conosco</h2>
+                <p class="description-contact">Complete o formulário para enviar sua mensagem para nós. </p> <br> <br>
+                <form action="./MensagemSucesso.html" class="form-fale-conosco">
+
+                    <label for="fale-Nome">Nome:*</label> <br>
+                    <input type="text" class="input" name="fale-Nome" required id="" placeholder=" Insira seu Nome">
+                    <br>
+
+                    <label for="fale-Nome">Email:*</label> <br>
+                    <input type="email" class="input" name="fale-Email" required id="" placeholder=" Insira seu Email">
+                    <br>
+
+                    <label for="fale-Nome">Mensagem:*</label> <br>
+                    <textarea name="fale-Mensagem" class="input" id="" required cols="30" rows="10"
+                        placeholder=" Descreva o motivo do seu contato:"></textarea>
+                    <p style="text-align: right;">(*)Obrigatório</p> <br> <br>
+                    <input type="submit" value="Enviar Mensagem" class="btn">
+                </form>
+            </main><!-- second-column -->
+        </div>
+    </section><!-- container -->
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <style>
+        .header {
+            color: white;
+            text-align: center;
+            background-color: #245C7D;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header" id="inicio">
+        <div>
+            <img src="./Imagens TCC/LogoTítulo.png" alt="LogoPortal360" width="15%">
+        </div>
+    </header>
+
+    <div class="container mt-4 bg-light">
+
+        <div>
+            <a th:href="@{/Portal360/noticias/todas-noticias}" class="btn btn-outline-secondary my-2">
+                <i class="fas fa-list ml-2"></i>
+                Notícias
+            </a>
+
+            <a th:href="@{/Portal360/LoginColaborador}" class="btn btn-outline-secondary my-2">
+                <i class="bi bi-box-arrow-left ml-2"></i>
+                Sair
+            </a>
+        </div>
+
+    </div>
+
+    <div class="container mt-4">
+        <center>
+            <h2>Bem-vindo colaborador!</h2>
+            <p>Acesse o menu acima para entrar na sua tela de manutenção. </p>
+        </center>
+    </div>
+</body>
+
+</html>
