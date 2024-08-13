@@ -17,7 +17,7 @@ body{
     justify-content: space-evenly;
     color: white;
     text-align: center;
-    background-color: #0069C0;
+    background-color: #0062B2;
     padding: 20px;
 }
 
@@ -43,7 +43,7 @@ body{
 }
 
 .title{
-    color: #0069C0;
+    color: #0062B2;
     font-size: 45px;
 }
 
@@ -99,7 +99,7 @@ font-size: 20px;
 hr{
     margin-left: 20px;
     margin-right: 20px;
-    border-color: #0069C0;
+    border-color: #0062B2;
 }
 
 .sobre-nos-container{
@@ -117,7 +117,7 @@ hr{
 .footer{
     position: relative;
     font-size: 20px;
-    background-color: #0069C0;
+    background-color: #0062B2;
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
